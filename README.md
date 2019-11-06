@@ -4,6 +4,8 @@
 
 Fixedw4vp.js 是用于在移动端页面开发中精准还原UI设计图与移动端适配的解决方案。原理是通过设置viewport中的width为指定宽度（比如750px），然后与窗口宽度计算出缩放比例，并设置viewport中的scale的值。
 
+使用最方便的地方在于你可以直接使用设计图的px来编写css。
+
 ## 如何使用
 
 你只需要在head中引用 [Fixedw4vp.js](https://github.com/yiwanlee/fixedw4vp.git) 即可，它会自动执行。使用简单，即插即用。
